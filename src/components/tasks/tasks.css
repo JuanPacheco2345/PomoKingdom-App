@@ -1,0 +1,24 @@
+.tasks-display-bg{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(249, 249, 249, 0.4);
+    margin-top: 2em;
+    padding: 1em;
+    border-radius: 15px;
+}
+
+.task-list{
+    max-height: 75%;
+    overflow: auto, hidden;
+}
+
+.add-task{
+    margin-top: 1em;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+
+}
+

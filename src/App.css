@@ -1,0 +1,20 @@
+body, html {
+    font-family: Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 25px;
+}
+
+.h-stack{
+    display: flex;
+    flex-direction: column;
+}
+
+.v-stack{
+    display: flex;
+    flex-direction: row;
+}
