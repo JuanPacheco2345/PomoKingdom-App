@@ -1,6 +1,7 @@
 import {Avatar, Box, Card} from '@mui/material';
 import './character-box.css'
 import { useGetCharacter } from '../../../context/character_provider';
+//import profile from '../../../../public/profile.jpg'
 
 function CharacterBox(){
     const character = useGetCharacter();
@@ -15,7 +16,7 @@ function CharacterBox(){
                 marginBottom: "1em",
                 width: 'fit-content',
             }}>
-                <Avatar variant='square' src="https://static1.cbrimages.com/wordpress/wp-content/uploads/2022/01/Tengen-Uzui-Tengen-Article-HEADER.png" alt='failure' sx={{width: 82, height: 82}}/>
+                <Avatar variant='square' src='profile.jpg' alt='failure' sx={{width: 82, height: 82}}/>
                 
                 <Box sx ={{
                     display: "flex",
